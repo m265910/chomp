@@ -17,10 +17,10 @@ while running:  # need this line to be able to close code
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-    screen.fill(brown)
+    screen.fill(blue)
 
     rectangle_height = 200
-    pygame.draw.rect(screen, blue, (0, 50, screen_width, rectangle_height))
+    pygame.draw.rect(screen, brown, (0, 50, screen_width, rectangle_height))
 
     pygame.display.flip()
 
