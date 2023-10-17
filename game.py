@@ -13,7 +13,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Blue Background with Brown Rectangle")
 
 running = True
-while running:
+while running:  # need this line to be able to close code
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
